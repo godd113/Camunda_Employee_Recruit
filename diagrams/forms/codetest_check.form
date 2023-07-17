@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "label": "Candidate Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ak2emu",
+        "columns": null
+      },
+      "id": "Field_1kdofh8",
+      "key": "candidate_name",
+      "validate": {
+        "required": true,
+        "minLength": 3
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Pass",
+          "value": "coding_test_pass"
+        },
+        {
+          "label": "Not Pass",
+          "value": "coding_test_notpass"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "layout": {
+        "row": "Row_1ua5479",
+        "columns": null
+      },
+      "id": "Field_1ybbwdr",
+      "key": "status",
+      "validate": {
+        "required": true
+      },
+      "defaultValue": "<none>"
+    },
+    {
+      "action": "submit",
+      "label": "Submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_1rbhrua",
+        "columns": null
+      },
+      "id": "Field_1fnwr9h",
+      "key": "field_0gjzqs3"
+    }
+  ],
+  "type": "default",
+  "id": "codetest_check",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}
